@@ -36,7 +36,7 @@
 
   if(isset($_SESSION['key']))
   {
-    if(@$_GET['q']== 'addquiz' && $_SESSION['key']=='suryapinky') 
+    if(@$_GET['q']== 'addquiz' && $_SESSION['key']=='admin') 
     {
       $name = $_POST['name'];
       $name= ucwords(strtolower($name));
